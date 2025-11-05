@@ -27,8 +27,7 @@ Trip.find({
 }).then(trips => {
   res.json({ Trips: trips });
 });
-
-
 });
+
 
 module.exports = router;
